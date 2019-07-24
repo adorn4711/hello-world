@@ -6,8 +6,19 @@ node {
     }
     stage('Test') {
         echo 'Testing github....'
+        echo 'Error occurred'
+        sh 'exit 1'
     }
     stage('Deploy') {
-        echo 'Deploying gitbub....'
+        when {
+              expression {
+                currentBuild.result == null || currentBuild.result == 'SUCCESS' 
+              }
+            }
+            steps {
+                echo 'Deploying gitbub....'
+                
+            }
+        
     }
 }
