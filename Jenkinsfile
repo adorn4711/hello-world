@@ -1,4 +1,5 @@
 node {
+    echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
     checkout scm
     stage('Build') {
         echo 'Building github....'
