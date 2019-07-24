@@ -10,15 +10,10 @@ node {
         sh 'exit 0'
     }
     stage('Deploy') {
-        when {
-              expression {
-                currentBuild.result == null || currentBuild.result == 'SUCCESS' 
-              }
-            }
-            steps {
-                echo 'Deploying gitbub....'
-                
-            }
+          if (currentBuild.result == null || currentBuild.result == 'SUCCESS') { 
+            echo 'deploy'
+        }
+ 
         
     }
 }
