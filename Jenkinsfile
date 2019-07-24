@@ -6,8 +6,8 @@ node {
     }
     stage('Test') {
         echo 'Testing github....'
-        echo 'Error occurred'
-        sh 'exit 1'
+        echo 'Test successfull'
+        sh 'exit 0'
     }
     stage('Deploy') {
         when {
