@@ -27,6 +27,8 @@ A->> B: Test
 graph TD;
 A-->B;
 A-->C;
+A-->D;
+C-->D;
 
 ```
 
