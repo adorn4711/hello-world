@@ -30,7 +30,7 @@ flowchart LR
 
 ## Future situation
 
-PDO Tax Team has own credentials for read the view
+PDO Tax Team has own credentials for reading the view
 
 ### Write access
 | Interface              | Account     | Reports to | Sponsor  | CDV View |
