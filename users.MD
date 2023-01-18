@@ -55,14 +55,14 @@ flowchart LR
 ### Read access solution 2
 | Interface              | Account    | Reports to | Sponsor  | CDV View |
 | ---------------------- | -------    | ---------- | -------- | --------- 
-| I00733 Payable Details | ICRPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_PTR_TDH_PAY |
-| I00685 Vendor Master   | ICRPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_STP_TAXBS
+| I00733 Payable Details | IERPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_PTR_TDH_PAY |
+| I00685 Vendor Master   | IERPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_STP_TAXBS
 
 ```mermaid
 flowchart LR
     I00733(iERP system I00733)--AP0R326P -->ViewI00733( View ZDV_PTR_TDH_PAY)
-    ViewI00733-- ICRPTAXP -->IICS(Informatica Tax PDO)
+    ViewI00733-- IERPTAXP -->IICS(Informatica Tax PDO)
     I00685(iERP system I00685)--VM00685P -->ViewI00685(View ZDV_STP_TAXBS)
-    ViewI00685-- ICRPTAXP -->IICS
+    ViewI00685-- IERPTAXP -->IICS
 
 ```    
