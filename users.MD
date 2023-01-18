@@ -42,7 +42,7 @@ PDO Tax Team has own credentials for reading the view
 | Interface              | Account    | Reports to | Sponsor  | CDV View |
 | ---------------------- | -------    | ---------- | -------- | --------- 
 | I00733 Payable Details | TAX733P    | GWAGNER9   | GWAGNER9 | ZDV_PTR_TDH_PAY |
-| I00685 Vendor Master   | TAX685P    | DPINNAMA   | GWAGNER9 | ZDV_STP_TAXBS
+| I00685 Vendor Master   | TAX685P    | GWAGNER9   | GWAGNER9 | ZDV_STP_TAXBS
 
 ```mermaid
 flowchart LR
@@ -56,7 +56,7 @@ flowchart LR
 | Interface              | Account    | Reports to | Sponsor  | CDV View |
 | ---------------------- | -------    | ---------- | -------- | --------- 
 | I00733 Payable Details | ICRPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_PTR_TDH_PAY |
-| I00685 Vendor Master   | ICRPTAXP    | DPINNAMA   | GWAGNER9 | ZDV_STP_TAXBS
+| I00685 Vendor Master   | ICRPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_STP_TAXBS
 
 ```mermaid
 flowchart LR
