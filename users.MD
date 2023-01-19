@@ -30,15 +30,17 @@ PDO Tax Team has own credentials for reading the view
 
 | Interface              | Account    | Reports to | Sponsor  | CDV View |
 | ---------------------- | -------    | ---------- | -------- | --------- 
-| I00733 Payable Details | IERPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_PTR_TDH_PAY |
-| I00685 Vendor Master   | IERPTAXP    | GWAGNER9   | GWAGNER9 | ZDV_STP_TAXBS
+| I00733 Payable Details | TX0R326P    | GWAGNER9   | GWAGNER9 | ZDV_PTR_TDH_PAY |
+| I00685 Vendor Master   | TX0R326P    | GWAGNER9   | GWAGNER9 | ZDV_STP_TAXBS
+
+Dana already requested the accounts TX0R326P, TX0R326U, TX0R326Q, TX0R326D
 
 ```mermaid
 flowchart LR
     I00733(iERP system I00733)--AP0R326P -->ViewI00733( View ZDV_PTR_TDH_PAY)
-    ViewI00733-- IERPTAXP -->IICS(Informatica Tax PDO)
+    ViewI00733-- TX0R326P -->IICS(Informatica Tax PDO)
     I00685(iERP system I00685)--VM00685P -->ViewI00685(View ZDV_STP_TAXBS)
-    ViewI00685-- IERPTAXP -->IICS
+    ViewI00685-- TX0R326P -->IICS
 ```    
 
 ### Read access solution (several accounts for PDO Tax Team to read data) 
