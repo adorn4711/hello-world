@@ -20,7 +20,7 @@ graph TD
     Zoe[Zoe<br>31.10.2022]
     Unknown[Unknown<br>2026]
     Angela[Angela<br>20.2.1985]
-    Anna-Maria[Anna-Maria<br>9.8.1983]
+    Annamaria[Annamaria<br>9.8.1983]
     Martina[Martina<br>8.11.1977]
     Marc[Marc<br>4.2.19??]
 
@@ -35,8 +35,8 @@ graph TD
     Renate --> Andreas
     Michael -.-> Alexander
     Renate --> Alexander
-    Ulli -.-> Anna-Maria
-    Renate --> Anna-Maria
+    Ulli -.-> Annamaria
+    Renate --> Annamaria
     Ulli -.-> Angela
     Renate --> Angela
 
