@@ -18,7 +18,7 @@ graph TD
     Leonard[Leonard<br>2.1.2011]
     Jonathan[Jonathan<br>14.10.2012]
     Zoe[Zoe<br>31.10.2022]
-    Unknown[Unknown<br>2026]
+    Oskar[Oskar<br>21.1.2026]
     Angela[Angela<br>20.2.1985]
     Annamaria[Annamaria<br>9.8.1983]
     Martina[Martina<br>8.11.1977]
@@ -51,8 +51,8 @@ graph TD
     Martina --> Antonia
     Marc -.-> Zoe
     Angela --> Zoe
-    Marc -.-> Unknown
-    Angela --> Unknown
+    Marc -.-> Oskar
+    Angela --> Oskar
 
     %% Optional: Styling for clarity (not %%strictly necessary but can improve %%readability)
     %%classDef fatherLink stroke-dasharray: 5 5;
@@ -80,7 +80,7 @@ graph TD
     Leonard[Leonard<br>2.1.2011]
     Jonathan[Jonathan<br>14.10.2012]
     Zoe[Zoe<br>31.10.2022]
-    Unknown[Unknown<br>2026]
+    Oskar[Oskar<br>21.1.2026]
     Angela[Angela<br>20.2.1985]
     Anna-Maria[Anna-Maria<br>9.8.1983]
     Martina[Martina<br>8.11.1977]
@@ -151,8 +151,8 @@ graph TD
     Martina --> Antonia
     Marc -.-> Zoe
     Angela --> Zoe
-    Marc -.-> Unknown
-    Angela --> Unknown
+    Marc -.-> Oskar
+    Angela --> Oskar
 
     %% Optional: Styling for clarity (not %%strictly necessary but can improve %%readability)
     %%classDef fatherLink stroke-dasharray: 5 5;
@@ -190,6 +190,6 @@ Vater(Ulli,Angela)
 Mutter(Renate,Angela)
 Vater(Marc,Zoe)
 Mutter(Angela,Zoe)
-Vater(Marc,Unknown)
-Mutter(Angela,Unknown)
+Vater(Marc,Oskar)
+Mutter(Angela,Oskar)
 ```
